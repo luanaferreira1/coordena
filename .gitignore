@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Builds e testes
+dist/
+**/dist/
+coverage/
+*.tsbuildinfo
+
+# Variáveis e credenciais
+.env
+.env.*
+!.env.example
+
+# Prisma gerado
+apps/api/src/generated/prisma/
+
+# Logs e editores
+*.log
+.vscode/
+.idea/
+.DS_Store
